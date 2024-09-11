@@ -24,19 +24,19 @@ public class E09_String {
         
         // Chuyển sang viết thường
         s.toLowerCase();
-        System.out.println(s);
+        System.out.println(s); // Không thay đổi
         
         // Chuyển sang viết hoa
-        s.toUpperCase();
-        System.out.println(s);
+        s.toUpperCase(); 
+        System.out.println(s); // Không thay đổi
         
         // Chuyển sang viết thường
         s = s.toLowerCase();
-        System.out.println(s);
+        System.out.println(s); // Có thay đổi
         
         // Chuyển sang viết hoa
         s = s.toUpperCase();
-        System.out.println(s);
+        System.out.println(s); // Có thay đổi
         
         // start/end
         System.out.println(s.startsWith("Lap"));
@@ -44,10 +44,10 @@ public class E09_String {
         
         // replace
         s.replace("A", "O");
-        System.out.println(s);
+        System.out.println(s); // Không thay đổi
         
         s = s.replace("A", "O");
-        System.out.println(s);
+        System.out.println(s); // Có thay đổi
         
         // indexOf => tìm kiếm
         System.out.println(s.indexOf("TRINH"));
